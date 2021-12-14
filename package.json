@@ -1,0 +1,22 @@
+{
+  "name": "automacao-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "interface": "cypress open",
+    "headless": "cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.1",
+    "cypress-xpath": "^1.6.2"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "moment-timezone": "^0.5.34"
+  }
+}
